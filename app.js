@@ -82,6 +82,10 @@ const menu = [
   },
 ];
 
+//set the date
+const date = document.querySelector('.date');
+date.innerHTML = new Date().getFullYear();
+
 const sectionCenter = document.querySelector('.section-center');
 const container = document.querySelector('.btn-container');
 //load items
